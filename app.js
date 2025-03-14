@@ -10,5 +10,8 @@ function agregarAmigo() {
     }
     //actualizando el array de amigos
     amigos.push(amigo);
+    //limpiar el campo de entrada
+    ingresarAmigo.value = "";
+    
     
 }
