@@ -13,5 +13,14 @@ function agregarAmigo() {
     //limpiar el campo de entrada
     ingresarAmigo.value = "";
     
-    
 }
+
+function listaAmigos() {
+    //obtener el elmento de la lista
+    let listaAmigos =document.getElementById("listaAmigos");
+    
+
+
+}
+
+
