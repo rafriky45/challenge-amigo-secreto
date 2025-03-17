@@ -41,8 +41,10 @@ function sortearAmigo() {
         alert("no hay amigos en lista para sortear");
         return;
     }
-
-
+//generar indice aleatorio
+   let indiceAleatorio = Math.floor(Math.random() * amigo.length);
+   
+   
 }
 
 
