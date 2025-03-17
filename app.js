@@ -35,6 +35,16 @@ function listaDeAmigos() {
     
 }
 
+//validar que haya amigos disponibles
+function sortearAmigo() {
+    if (amigo.length === 0) {
+        alert("no hay amigos en lista para sortear");
+        return;
+    }
+
+
+}
+
 
 
 
