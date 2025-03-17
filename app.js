@@ -15,12 +15,15 @@ function agregarAmigo() {
     
 }
 
-function listaAmigos() {
+function listaDeAmigos() {
     //obtener el elmento de la lista
-    let listaAmigos =document.getElementById("listaAmigos");
+    let LaListaAmigos =document.getElementById("listaAmigos");
+    //limpiar lista exiztente
+    LaListaAmigos.innerHTML = "";
+
     
-
-
 }
+
+
 
 
