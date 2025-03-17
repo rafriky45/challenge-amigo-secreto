@@ -46,6 +46,10 @@ function sortearAmigo() {
    
    //obtener amigo sorteado
    let amigoGanador = amigo[indiceAleatorio];
+
+   //mostrar el resultado
+   let resultado = document.getElementById("resultado");
+   resultado.innerHTML = `<li>${amigoGanador} es el amigo secreto <li>`;
 }
 
 
